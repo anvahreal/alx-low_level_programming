@@ -1,8 +1,7 @@
 #include "main.h"
-
 /**
- * main - check the code.
- * 
+ * _strlen - check the code
+ * @s: declaration of *s and paramters for the function _strlen
  * Return: Always 0.
  */
 int _strlen(char *s)
