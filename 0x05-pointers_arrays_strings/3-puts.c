@@ -1,16 +1,15 @@
 #include "main.h"
+
 /**
- * main - check the code.
- * 
+ * main - check the code
+ *
  * Return: Always 0.
  */
-void _puts(char *str)
+int main(void)
 {
-	int c;
+	char *str;
 
-	for (c = 0; str[c] != 0; c++)
-	{
-		_putchar(str[c]);
-	}
-	_putchar('\n');
+	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+	_puts(str);
+	return (0);
 }
