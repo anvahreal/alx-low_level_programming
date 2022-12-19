@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - check the code.
- *
+ * rev_string - function that reverses a string.
+ * @s: declaration of *s and paramters for the function
  * Return: Always 0.
  */
 void rev_string(char *s)
@@ -21,3 +21,4 @@ void rev_string(char *s)
 		f--;
 	}
 }
+
