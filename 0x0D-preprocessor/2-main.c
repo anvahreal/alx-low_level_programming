@@ -1,6 +1,12 @@
-#ifndef PI_H
-#define PI_H
-
-#define PI 3.14159265359
-
-#endif /* PI_H */
+#include <stdlib.h>
+#include <stdio.h>
+#include "main.h"
+/**
+ * main - Entry Point
+ * Return: 0
+ */
+int main(void)
+{
+	printf("%s\n", __FILE__);
+	return (0);
+}
